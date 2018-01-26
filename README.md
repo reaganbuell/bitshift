@@ -1,0 +1,2 @@
+# bitshift
+Cryptocurrency News Aggregator
