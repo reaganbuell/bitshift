@@ -1,17 +1,21 @@
 body {
-    margin-top: 45px;
-    background-color: slategray; /*#778899*/
-    font-family: 'Dosis', sans-serif;
+    margin-top: 100px;
+    background-color: white; 
+    font-family: 'Play', sans-serif;
+    text-align: center;
 }
 
 h1 {
-    color: orangered; /*#FF4500*/
+    color: #75EEFF; /*orangered #FF4500*/
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #40577c; /*#656d7a*/
     text-align: center;
     font-size: 50px;
+    font-family: 'Righteous', cursive;
 }
 
 h2 {
-    color:goldenrod; /*#DAA520*/
+    color:#40577c; /* goldenrod #DAA520*/
     font-size: 32px;
 }
 h5 {
@@ -21,14 +25,30 @@ h5 {
 }
 p {
     font-size: 18px;
+    color: #656d7a;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    float: right;
+    right: 41%;
+}
+
+/*Bitcoin Chart*/
+.chart {
+    margin-left: 375px;
+    margin-top: 25px;
+    margin-right: 375px;
+    background-color: white;
 }
 
 /* The navigation bar */
 .navbar {
     overflow: hidden;
     background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    position: sticky; /* Set the navbar to fixed position */
+    top: 100px; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
 
